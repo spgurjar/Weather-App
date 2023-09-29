@@ -5,7 +5,7 @@ import WeatherDetails from "./WeatherDetails";
 function SearchMain() {
   const [searchTerm, setSearchTerm] = useState("roorkee");
   const [tempInfo, setTempInfo] = useState({});
-  const [tempUnit, setTempUnit] = useState("°C");
+  const [tempUnit, setTempUnit] = useState("K");
 
   const getWeatherInfo = async () => {
     try {
